@@ -1,0 +1,64 @@
+{
+  "title": "Registration Form",
+  "fields": [
+    {
+      "field_type": "TextField",
+      "id": "name",
+      "title": "Full Name"
+    },
+    {
+      "field_type": "MultiLineTextField",
+      "id": "address",
+      "title": "Address"
+    },
+    {
+      "field_type": "Dropdown",
+      "id": "country",
+      "title": "Country",
+      "values": [
+        {
+          "id": "IN",
+          "title": "India"
+        },
+        {
+          "id": "USA",
+          "title": "United States of America"
+        }
+      ]
+    },
+    {
+      "field_type": "Radio",
+      "id": "membership",
+      "title": "Membership",
+      "values": [
+        {
+          "id": "free",
+          "title": "Free"
+        },
+        {
+          "id": "professional",
+          "title": "Professional"
+        }
+      ]
+    },
+    {
+      "field_type": "Checkbox",
+      "id": "interests",
+      "title": "Interests",
+      "values": [
+        {
+          "id": "cricket",
+          "title": "Cricket"
+        },
+        {
+          "id": "music",
+          "title": "Music"
+        },
+        {
+          "id": "travel",
+          "title": "Traveller"
+        }
+      ]
+    }
+  ]
+}
